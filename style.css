@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.5) url('./netflix.jpg');
+    background-blend-mode: darken;
+}
+
+.logo img{
+    width: 13%;
+    color: rgb(209, 33, 33);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 440px;
+    height: 650px;
+    background-color: #000;
+    opacity: 0.77;
+}
+
+.container h1{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+}
+
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+
+input[type=submit]{
+    width: 320px;
+    height: 35px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+label{
+    color: rgb(125, 119, 119);
+    
+}
+
+.form a{
+    float: right;
+    margin-top: 15px;
+    margin-right: 154px;
+    color: rgb(125, 119, 119);
+    text-decoration: none;
+}
+
+.content{
+    position: absolute;
+    margin-top: 30px;
+    font-size: 9px;
+    margin-left: 55px;
+}
+
+.content h2{
+    color: rgb(125, 119, 119);
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
+input[type=submit]:hover{
+    background-color: rgb(238, 2, 2);
+}
+.container h4{
+    color: #897c7c;
+    margin-top: 40px;
+}
+input[type=submit] .use{
+    width: 320px;
+    height: 45px;
+    background-color: rgb(130, 106, 106);
+    color: #a70f0f;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.content a:hover{
+    cursor: pointer;
+}
+.use input[type="submit"] {
+    background-color: #333;
+}
+.use input[type="submit"]:hover{
+    background-color: #2b2a2a;
+}
